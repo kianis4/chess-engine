@@ -2,10 +2,12 @@ import pygame
 from const import *
 from board import Board
 from square import *
+from dragger import Dragger
 
 class Game:
     def __init__(self):
         self.board = Board()
+        self.dragger = Dragger()
 
     #Show methods
 
